@@ -5,6 +5,10 @@ blueprint references an image created by the base image scripts at
 [https://github.com/getcloudless/example-base-image](https://github.com/getcloudless/example-base-image),
 so this will fail unless you run that first.
 
+NOTE: You must also run `clone_apache.sh` before you run the tests, because
+[https://github.com/getcloudless/cloudless/issues/39](https://github.com/getcloudless/cloudless/issues/39)
+is not implemented yet.
+
 ## Usage
 
 The file at `blueprint.yml` can be used in any service command:
