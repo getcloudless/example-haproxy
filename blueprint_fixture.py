@@ -12,8 +12,7 @@ from cloudless.testutils.blueprint_tester import (generate_unique_name,
 from cloudless.testutils.fixture import BlueprintTestInterface, SetupInfo
 from cloudless.types.networking import CidrBlock
 
-SERVICE_BLUEPRINT = os.path.join(os.path.dirname(__file__),
-                                 "../apache/blueprint.yml")
+SERVICE_BLUEPRINT = os.path.join(os.path.dirname(__file__), "example-apache/blueprint.yml")
 
 RETRY_DELAY = float(10.0)
 RETRY_COUNT = int(10)
