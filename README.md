@@ -66,7 +66,7 @@ You're done!  The run step will run all these steps in order.
   framework.
 - `blueprint.yml`: Blueprint that is actually used to create the service.  This
   is the thing we are really testing.
-- `apache_startup_script.sh`: Script referenced by the blueprint that will set
-  up Apache.
+- `haproxy_startup_script.sh`: Script referenced by the blueprint that will set
+  up HAProxy.
 - `blueprint_fixture.py`: Python test fixture that will set up dependencies and
   verify that things are behaving as expected.
